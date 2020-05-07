@@ -14,7 +14,7 @@
 			//$passDef = (string)$xml->usuarios[0]->pass;
 
 			$serverName = "ulacit-personal-db1.database.windows.net";
-			$connectionInfo = array( "Database"=>"personal-db", "UID"=>"iradmin", "PWD"=>"/-/3|_pd3sk1024");
+			$connectionInfo = array( "Database"=>"personal-db", "UID"=>"itadmin", "PWD"=>"/-/3|_pd3sk1024");
 			$conn = sqlsrv_connect( $serverName, $connectionInfo );
 
 			if( $conn === true ) {
